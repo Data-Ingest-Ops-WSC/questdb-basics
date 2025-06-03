@@ -1,6 +1,6 @@
 # QuestDB Basics
 
-This repository provides a simple, standalone environment to learn and experiment with [QuestDB](https://questdb.io/), a high-performance time-series database. It includes sample CSV data, SQL scripts, and a Docker-based setup for running QuestDB locally.
+This repository provides a simple, standalone environment to learn and experiment with [QuestDB](https://questdb.io/), a high-performance time-series database. It includes SQL scripts and a Docker-based setup for running QuestDB locally.
 
 ---
 
@@ -28,8 +28,6 @@ PostgreSQL Port (wire protocol): localhost:8812
 ```
 questdb-basics/
 ├── docker-compose.yml         # Starts QuestDB container
-├── data/
-│   └── sample.csv             # Sample trade data for import
 ├── sql/
 │   ├── create_table.sql       # SQL to create a time-series table
 │   ├── insert_data.sql        # Insert rows manually with SQL
